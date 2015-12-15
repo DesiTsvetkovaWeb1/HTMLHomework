@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Exercise 1</title>
+	</head>
+	<body>
+	<form action="" method = "get">
+		<h1>Add Employe</h1>
+		<table>
+		<tr>
+		<td><label for= "first_name">First Name: </label> </td>
+		<td><input type ="text" id = "first_name" name = "fn"> </td>
+		</tr>
+		<tr>
+			<td><label for = "last_name">Last Name: </label></td>
+			<td><input type = "text" id = "last_name" name= "ln"></td>
+		</tr>
+		<tr>
+			<td><label for = "title">Title: </label></td>
+			<td><input type = "text" id = "title" name= "title"></td>
+		</tr>
+		<tr>
+			<td>
+				<label>Title of Courtesy</label></td>
+			<td> 
+				<input type = "radio" id= "dr" name = "title_of">
+					<label for = "dr">Dr. </label>
+					<input type = "radio" id = "mr" name= "title_of">
+					<label for = "mr">Mr. </label>
+					<input type = "radio" id= "mrs" name = "title_of">
+					<label for = "mrs">Mrs. </label>
+					<input type = "radio" id = "ms" name= "title_of">
+					<label for = "ms">Ms. </label></td>
+		</tr>
+		
+		<tr>
+			<td>
+				<label for="birth_date">Birth day: </label>
+			</td>
+			<td>
+				<select id="birth_month" name = "birth_month">
+				<option value = "1">January</option>
+				<option value = "2">February</option>
+				<option value = "3">March </option>
+				<option value = "4"> April</option>
+				<option value = "5"> May </option>
+				<option value = "6">June</option>
+				<option value = "7">July</option>
+				<option value = "8">August</option>
+				<option value = "9">September</option>
+				<option value = "10">October</option>
+				<option value = "11">November</option>
+				<option value = "12">December</option>
+			</select>
+			<select id= "birth_day" name = "birth_day">
+				<option value = "1">1</option>
+				<option value = "2">2</option>
+				<option value = "3">3</option>
+			</select>
+			<select id = "birth_year">
+				<option value = "1999">1999</option>
+				<option value = "1998">1998</option>
+				<option value = "1997">1997</option>
+			</select>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<label>Hire date: </label>
+			</td>
+			<td>
+				<select id="hire_month" name = "birth_month">
+				<option value = "1">January</option>
+				<option value = "2">February</option>
+				<option value = "3">March </option>
+				<option value = "4"> April</option>
+				<option value = "5"> May </option>
+				<option value = "6">June</option>
+				<option value = "7">July</option>
+				<option value = "8">August</option>
+				<option value = "9">September</option>
+				<option value = "10">October</option>
+				<option value = "11">November</option>
+				<option value = "12">December</option>
+			</select>
+			<select id= "hire_day" name = "birth_day">
+				<option value = "1">1</option>
+				<option value = "2">2</option>
+				<option value = "3">3</option>
+			</select>
+			<select id = "hire_year">
+				<option value = "1999">1999</option>
+				<option value = "1998">1998</option>
+				<option value = "1997">1997</option>
+			</select>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<label for = "addresss">Adress: </label>
+			</td>
+			<td>
+				<input type = "text" id="addres" name  = "address">
+			</td>
+		</tr>
+		<tr>
+			<td><label for="city">City</label></td>
+			<td><input type= "text" id= "city" name ="city"></td>
+		</tr>
+		<tr>
+			<td><label for = "region">Region: </label></td>
+			<td><input type = "text" id = "region" name = "region"></td>
+		</tr>
+		<tr>
+			<td><label for= "postal_code">Postal code: </label></td>
+			<td><input type = "text" id = "postal_code" name = "post_code">
+			</td>
+		</tr>
+		<tr>
+			<td><label for="country">Country: </label> </td>
+			<td><input type = "text" id = "country" name = "country"></td>
+		</tr>
+		<tr>
+			<td><label for="h_phone">Home Phone: </label></td>
+			<td><input type = "text" id = "h_phone" name = "home_phone"></td>
+		</tr>
+		<tr>
+			<td><label for = "extension">Extension: </label></td>
+			<td><input name = "text" id="extension" name= "extension"></td>
+		</tr>
+		</table>
+			<div>
+			<label for = "notes">Notes: </label>
+			</div>
+			<div>
+			<textarea rows="10" cols=100%></textarea>
+			</div>
+			
+		<table>
+		<tr>
+			<td><label for = "manager">Manager: </label></td>
+			<td>
+			<select id = "manager">
+				<option value = "1"> A </option>
+				<option value = "2"> B </option>
+			</select></td>
+		</tr>
+		<tr>
+			<td><label for= "pass">Password: </label></td>
+			<td><input type = "password" id = "pass" name = "pass"></td>
+		</tr>
+		<tr>
+			<td><label for= "r_pass">Repeat password: </label></td>
+			<td><input type = "password" id = "r_pass" name = "r_pass"></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><button type = "submit">Add emploee</button></td>
+		</tr>		
+
+		</table>
+	</form>
+	</body>
+</html>
